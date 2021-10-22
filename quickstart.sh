@@ -4,7 +4,7 @@ set -e
 if [ "$(uname)" == "Darwin" ]; then
   KEYCHAIN_SERVICE="${KEYCHAIN_SERVICE:-Sphinx_Confluence}"
   CONFLUENCE_PARENT="${CONFLUENCE_PARENT}"
-  sphinx-quickstart -l en --extension=myst_parser --extension=sphinxcontrib.confluencebuilder --extension=sphinxcontrib.plantuml --extension=sphinx.ext.graphviz --extension=rinoh.frontend.sphinx --extension=sphinxcontrib.drawio --sep --master="index" -t .templates -d confluence_keychain_service=$KEYCHAIN_SERVICE -d confluence_parent="$CONFLUENCE_PARENT" pitch
+  sphinx-quickstart -l en --extension=myst_parser --extension=sphinxcontrib.confluencebuilder --extension=sphinxcontrib.plantuml --extension=sphinx.ext.graphviz --extension=rinoh.frontend.sphinx --extension=sphinxcontrib.drawio --sep --master="index" -t .templates -d confluence_keychain_service=$KEYCHAIN_SERVICE -d confluence_parent="$CONFLUENCE_PARENT" docs
   if brew ls --versions "plantuml" >/dev/null; then
         HOMEBREW_NO_AUTO_UPDATE=1 brew upgrade "plantuml"
     else
