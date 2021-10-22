@@ -1,0 +1,8 @@
+sphinx
+myst-parser
+livereload
+rinohtype
+sphinxcontrib-plantuml
+sphinxcontrib-confluencebuilder
+linkify-it-py
+sphinxcontrib-drawio
