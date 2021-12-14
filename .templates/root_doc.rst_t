@@ -3,7 +3,7 @@
 ```{toctree}
 ---
 maxdepth: {{ mastertocmaxdepth }}
-caption: Contents:
+caption: "Contents:"
 ---
 {{ mastertoctree }}
 ```

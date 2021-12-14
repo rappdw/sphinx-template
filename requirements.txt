@@ -6,3 +6,6 @@ sphinxcontrib-plantuml
 sphinxcontrib-confluencebuilder
 linkify-it-py
 sphinxcontrib-drawio
+sphinxcontrib.bibtex
+sphinx-book-theme
+sphinx-math-dollar

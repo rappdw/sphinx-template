@@ -44,6 +44,7 @@ def getpassword(service):
 project = {{ project | repr }}
 copyright = {{ copyright | repr }}
 author = {{ author | repr }}
+html_title = {{ project | repr }}
 
 {%- if version %}
 
